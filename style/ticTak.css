@@ -1,0 +1,56 @@
+body {
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	color: black;
+	align-content: center;
+	background: whitesmoke;
+}
+
+.row {
+	display: block;
+}
+
+.cell {
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+#topLeft {
+	border-right: solid 5px black;
+	border-bottom: solid 5px black;
+}
+
+#topCenter {
+	border-bottom: solid 5px black;
+}
+
+#topRight {
+	border-left: solid 5px black;
+	border-bottom: solid 5px black;
+}
+
+#centerLeft {
+	border-right: solid 5px black;
+	border-bottom: solid 5px black;
+}
+
+#center {
+	border-bottom: solid 5px black;
+}
+
+#centerRight {
+	border-left: solid 5px black;
+	border-bottom: solid 5px black;
+}
+
+#bottomLeft {
+	border-right: solid 5px black;
+}
+
+#bottomRight {
+	border-left: solid 5px black;
+}
+
