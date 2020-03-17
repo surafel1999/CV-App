@@ -1,0 +1,212 @@
+body {
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#ethiopia img {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: 0rem;
+	left: 8rem;
+}
+
+#canada img {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	top: 5rem;
+	left: 0.2rem;
+}
+
+#spain img {
+	position: relative;
+	width: 100px;
+	height: 120px;
+	top: .8rem;
+	left: 5rem;
+}
+
+#israel img {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: .8rem;
+	left: 8rem;
+}
+
+.row {
+	height: 300px;
+}
+
+.flag {
+	display: inline-block;	
+	margin: 10px;
+	float: left;
+	width: 30%;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+#poland {
+	border-top: 150px white solid;
+	border-bottom: 150px red solid; 
+}
+
+#france {
+	background-color: white;
+	height: 300px;
+	width: 125px;
+	border-right: 125px red solid;
+	border-left: 125px blue solid;
+}
+
+#ethiopia {
+	background-color: yellow;
+	height: 100px;
+	border-top: 100px green solid;
+	border-bottom: 100px red solid; 	
+}
+
+#germany {
+	background-color: red;
+	height: 100px;
+	border-top: 100px black solid;
+	border-bottom: 100px yellow solid; 	
+}
+
+#canada {
+	background-color: white;
+	height: 300px;
+	width: 125px;
+	border-right: 125px red solid;
+	border-left: 125px red solid;
+}
+
+#norway {
+	background-color: blue;
+	height: 300px;
+}
+
+#norway .top, #norway .bottom{
+	height: 300px;
+	display: inline-block;
+	background-color: red;
+}
+
+#norway #topLeft {
+	width: 106px;
+	height: 133px;
+	border-right: 5px white solid;
+	border-bottom: 5px white solid;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#norway #topRight {
+	width: 224px;
+	height: 133px;
+	border-left: 5px white solid;
+	border-bottom: 5px white solid;
+	margin-bottom: 20px;
+}
+
+#norway #bottomLeft {
+	width: 106px;
+	height: 133px;
+	border-right: 5px white solid;
+	border-top: 5px white solid;
+	margin-right: 20px;
+}
+
+#norway #bottomRight {
+	width: 224px;
+	height: 133px;
+	border-left: 5px white solid;
+	border-top: 5px white solid;
+}
+
+
+#finland {
+	background-color: blue;
+	height: 300px;
+	width: 375px;
+}
+
+#finland .top, #finland .bottom{
+	height: 300px;
+	display: inline-block;
+	background-color: white;
+}
+
+#finland #topLeft {
+	width: 117px;
+	height: 133px;
+	border-right: 5px blue solid;
+	border-bottom: 5px blue solid;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#finland #topRight {
+	width: 224px;
+	height: 133px;
+	border-left: 5px blue solid;
+	border-bottom: 5px blue solid;
+	margin-bottom: 20px;
+}
+
+#finland #bottomLeft {
+	width: 117px;
+	height: 133px;
+	border-right: 5px blue solid;
+	border-top: 5px blue solid;
+	margin-right: 20px;
+}
+
+#finland #bottomRight {
+	width: 224px;
+	height: 133px;
+	border-left: 5px blue solid;
+	border-top: 5px blue solid;
+}
+
+#austria {
+	background-color: white;
+	height: 100px;
+	border-top: 100px red solid;
+	border-bottom: 100px red solid; 	
+}
+
+#czech {
+	width: 185px;
+	border-left: 180px blue solid;
+	border-top: 150px white solid;
+	border-bottom: 150px red solid
+}
+
+#italy {
+	background-color: white;
+	height: 300px;
+	width: 125px;
+	border-right: 125px red solid;
+	border-left: 125px green solid;
+}
+
+
+#israel {
+	width: 100%;
+	background-color: white;
+	height: 120px;
+	border-top: 60px blue solid;
+	margin-top: 30px;
+	border-bottom: 60px blue solid;
+	margin-bottom: 30px;
+}
+
+#spain {
+	background-color: yellow;
+	height: 150px;
+	border-top: 75px red solid;
+	border-bottom: 75px red solid;
+}
