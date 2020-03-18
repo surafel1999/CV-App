@@ -1,0 +1,60 @@
+body {
+	margin: auto;
+	width: 50%;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+img:hover {
+	width: 125px;
+	height: 125px;
+}
+
+nav {
+	height: 150px;
+}
+
+nav > ul > li {
+	display: inline-block;
+    width: 15%;
+    padding: 2em 1em;
+    font-size: larger;
+	text-decoration: none;
+}
+
+nav > ul > li> a{
+	text-decoration: none;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited{
+	text-decoration: none;
+    color: black;
+}
+
+
+nav > ul > li > a:hover, nav > ul > li > a:active{
+    color: pink;
+}
+
+#one, #two, #three {
+	position: fixed;
+}
+
+#one {
+	top: 12rem;
+	left: 30rem;
+}
+
+#two {
+	top: 12rem;
+	left: 40rem;
+}
+
+#three {
+	top: 12rem;
+	left: 50rem;
+}
+
