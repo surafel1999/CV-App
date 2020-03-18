@@ -1,0 +1,53 @@
+body{
+    border-top: solid 1px black;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+
+figcaption {
+    display: inline-block;
+}
+
+
+div > img{
+    display: inline-block;
+    margin: 1.5% 1.5%;
+    width: 30%;
+
+}
+
+.row{
+    display: inline-block;
+    
+}
+
+#image-grid {
+    border-top: solid 2px lightcoral;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: larger;
+    color: black;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li:hover{
+    background-color: lightblue;
+}
+

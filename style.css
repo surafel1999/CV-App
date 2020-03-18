@@ -1,0 +1,66 @@
+body{
+    border-top: solid 1px black;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+header {
+    height: 70px;
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    margin-top: 60px;
+    padding: 10px 60px;
+}
+
+article{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+.title {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.date {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: larger;
+    color: black;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li:hover{
+    background-color: lightblue;
+}
+
+#clear {
+    clear: both;
+}
