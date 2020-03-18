@@ -1,0 +1,59 @@
+body{
+    width: 60%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white; 
+}
+
+
+img {
+    width: 150px;
+    height: 200px;
+    border-radius: 100%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+nav {
+    margin-top: 40px; 
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    width: 65%;
+    bottom: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: larger;
+}
+
+nav > ul > li > a{
+    margin: 0;
+    align-content: left;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited{
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active{
+    color: white;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
+.content{
+    line-height: 1.1em;
+    font-size: 1em;
+    text-align: justify;
+}
