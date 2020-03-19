@@ -1,5 +1,4 @@
 body{
-    border-top: solid 1px black;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
@@ -34,20 +33,3 @@ div > img{
     text-align: center;
     
 }
-
-nav > ul > li {
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: larger;
-    color: black;
-}
-
-nav > ul > li > a{
-    text-decoration: none;
-    color: black;
-}
-
-nav > ul > li:hover{
-    background-color: lightblue;
-}
-

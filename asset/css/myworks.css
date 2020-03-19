@@ -1,11 +1,7 @@
-body {
-	margin: auto;
-	width: 50%;
-}
-
 img {
 	width: 100px;
 	height: 100px;
+    transition: height 1s, width 1s;
 }
 
 img:hover {
@@ -13,11 +9,11 @@ img:hover {
 	height: 125px;
 }
 
-nav {
+#navigation {
 	height: 150px;
 }
 
-nav > ul > li {
+#navigation > ul > li {
 	display: inline-block;
     width: 15%;
     padding: 2em 1em;
@@ -25,17 +21,16 @@ nav > ul > li {
 	text-decoration: none;
 }
 
-nav > ul > li> a{
+#navigation > ul > li> a{
 	text-decoration: none;
 }
 
-nav > ul > li > a:link, nav > ul > li > a:visited{
+#navigation > ul > li > a:link, nav > ul > li > a:visited{
 	text-decoration: none;
-    color: black;
 }
 
 
-nav > ul > li > a:hover, nav > ul > li > a:active{
+#navigation > ul > li > a:hover, nav > ul > li > a:active{
     color: pink;
 }
 
@@ -45,16 +40,15 @@ nav > ul > li > a:hover, nav > ul > li > a:active{
 
 #one {
 	top: 12rem;
-	left: 30rem;
+	left: 25rem;
 }
 
 #two {
 	top: 12rem;
-	left: 40rem;
+	left: 35rem;
 }
 
 #three {
 	top: 12rem;
-	left: 50rem;
+	left: 45rem;
 }
-
