@@ -1,0 +1,85 @@
+html{
+    background-color: #2F4F4F; 
+    color: white;
+}
+
+body{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+footer {
+    border-top: solid tomato 3px;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+nav > ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+    background: whitesmoke;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: larger;
+    text-align: center;
+    padding: 10px 4px 4px 4px;
+}
+
+nav > ul > li > a{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited{
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active{
+    color: white;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
+footer > p > a{
+    text-decoration: none;
+    padding: 4px;
+}
+
+footer > p > a > img{
+    width: 30px;
+    height: 30px;
+}
+
+.active{
+    color: white;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
+.content{
+    line-height: 1.1em;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+
