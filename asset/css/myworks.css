@@ -33,11 +33,6 @@ img:hover {
 	text-decoration: none;
 }
 
-
-#navigation > ul > li > a:hover, nav > ul > li > a:active{
-    color: pink;
-}
-
 #one, #two, #three {
 	position: fixed;
 }

@@ -13,7 +13,6 @@ div > img{
     display: inline-block;
     margin: 1.5% 1.5%;
     width: 30%;
-
 }
 
 .row{
@@ -25,5 +24,4 @@ div > img{
     border-top: solid 2px lightcoral;
     padding: 10px 10px;
     text-align: center;
-    
 }
