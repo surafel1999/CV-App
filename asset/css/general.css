@@ -9,14 +9,6 @@ body{
     font-size: 1.5rem;
 }
 
-nav {
-    margin-top: 10px;
-    margin-left: 0px;
-    background: whitesmoke;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 4px;
-}
-
 footer {
     border-top: solid tomato 3px;
     bottom: 10px;
@@ -25,15 +17,27 @@ footer {
     font-style: italic;
 }
 
+header {
+    position: sticky;
+    top: 0;
+
+}
+
 nav > ul {
-    margin: 0;
-    padding-left: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+    background: whitesmoke;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
 }
 
 nav > ul > li {
     display: inline-block;
     font-size: larger;
-    padding: 4px;
+    text-align: center;
+    padding: 10px 4px 4px 4px;
 }
 
 nav > ul > li > a{
@@ -51,6 +55,12 @@ nav > ul > li > a:hover, nav > ul > li > a:active{
     background-color: tomato;
 }
 
+.active{
+    color: white;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
 .content{
     line-height: 1.1em;
     font-size: 1em;
@@ -63,11 +73,3 @@ nav > ul > li > a:hover, nav > ul > li > a:active{
     padding: 20px;
 }
 
-#profile {
-    width: 150px;
-    height: 200px;
-    border-radius: 100%;
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-}
