@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/general.css"> 
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/contact.css"> 
 
 </head>
 <body>
@@ -20,18 +21,82 @@
         </nav>
     </header>
     <div class="container">
-    <section>
-    <h1>Surafel Kassahun</h1>
-    <h3>Major Software Engineering 2020</h3>
-    <p>
-        Graduated highschool from Arba Minch Rehoboth school.<br>
-        Currently pursuing software engineering at AAiT.
-    </p>
-    <div id="clear">
-        <p>I don't want this text to float aroud the image ...</p>
+        <img id="profile" src="../image/trial.png" alt="profile photo">
+        <h1>Surafel Kassahun</h1>
+        <h3>Major Software Engineering, 2020</h3>
+        <p class="content">
+            Ethiopian, Software developer, Computer Science Enthusiast, Philantropist, and Open Source Advocate.  
+        </p>
+        <form action="mailto:se.surafel.kassahun@gmail.com">
+        <div class="grid-container">
+            <div class="row">
+                <div class="item1"> <label for="fName" >First Name: </label> </div>
+                <div class="item2"> <input type="text" id="fName" placeholder="Your name.." required pattern="[A-Za-z]{2,}"> </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="sName">Last Name: </label>  </div>
+                <div class="item2"> <input type="text" id="sName" placeholder="Your name.." required pattern="[A-Za-z]{2,}"> </div>
+            </div>
+            <div class="row">
+                <div class="item1"><label>Gender:</label></div>
+                <div class="item2">
+                    <label for="male">Male </label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female </label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="mail">Email: </label> </div>
+                <div class="item2"> <input type="email" id="mail" required> </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="password">Password: </label> </div>
+                <div class="item2"> <input type="password" id="password" required pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}"> </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="country">Country: </label></div>
+                <div class="item2">
+                    <select name="country" id="country">
+                        <option value="" disabled selected>--select your country--</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="USA">USA</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="England">England</option>
+                        <option value="India">India</option>
+                        <option value="Italy">Italy</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item1"><label for="slider">Rate my cv:</label></div>
+                <div class="item2"><input id="slider" type="range" min="0" max=10 step="1"></div>
+            </div>
+            <div class="row">
+                <div class="item1">Any Suggestions?</div>
+                <div class="item2"><textarea name="comment" placeholder="Enter your suggestions here."></textarea></div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        </form>
     </div>
-    </section>
-    </div>
+    <footer>
+        <p>Contact Me On: 
+            <a href="https://www.facebook.com/profile.php?id=100009073919500">
+                <img src="../image/social_media_icons/facebook.png" alt="Facebook"></a>
+            <a href="https://t.me/sura2011">
+                <img src="../image/social_media_icons/telegram.png" alt="Telegram"></a>
+            <a href="https://mail.google.com/mail/u/se.surafel.kassahun@gmail.com">
+                <img src="../image/social_media_icons/gmail.png" alt="Gmail"></a>
+            <a href="https://www.linkedin.com/in/surafel-kassahun-916117172">
+                <img src="../image/social_media_icons/linkedin.png" alt="Linkedin"></a>
+            <a href="https://github.com/Surafel1999">
+                <img src="../image/social_media_icons/github.png" alt="Githb"></a>
+        </p>
+        <p>Developed by Surafel Kassahun Copyright&copy;2020</p>
+    </footer>
+
 </body>
 </html>
 

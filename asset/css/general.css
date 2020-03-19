@@ -55,6 +55,16 @@ nav > ul > li > a:hover, nav > ul > li > a:active{
     background-color: tomato;
 }
 
+footer > p > a{
+    text-decoration: none;
+    padding: 4px;
+}
+
+footer > p > a > img{
+    width: 30px;
+    height: 30px;
+}
+
 .active{
     color: white;
     border-radius: 4px;
