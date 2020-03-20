@@ -1,0 +1,44 @@
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px 10px;
+	padding: 10px;
+}
+
+.item{
+	text-align: left;
+}
+
+.section {
+	margin-top: 8px;
+	border-top: solid 2px white;
+}
+
+#about-me{
+    white-space: pre-line;
+}
+
+#tHeader{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#profile {
+    width: 150px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+/*Media Query*/
+@media screen and (max-width: 768px) {
+    #profile {
+    	float: none;
+    	display: block;
+    	text-align: center;
+    }
+}
+ 

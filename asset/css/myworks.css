@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	margin: auto;
 	width: 50%;
@@ -56,5 +57,48 @@ nav > ul > li > a:hover, nav > ul > li > a:active{
 #three {
 	top: 12rem;
 	left: 50rem;
+=======
+footer {
+	margin-top: 50px;
+}
+
+#navigation img {
+	width: 100px;
+	height: 100px;
+    transition: height 1s, width 1s;
+}
+
+#navigation img:hover {
+	width: 150px;
+	height: 150px;
+}
+
+#navigation{
+	margin-top: 40px;
+	text-align: center;
+}
+
+#navigation > a {
+    width: 20%;
+    padding: 20px 20px;
+	text-decoration: none;
+}
+
+/*Media Query*/
+@media screen and (max-width: 768px) {
+	h1{
+		font-size: larger;	
+	}
+	#navigation img {
+		width: 50px;
+		height: 50px;
+	}
+
+	#navigation > a {
+	    width: 5%;
+	    padding: 10px 10px;
+		text-decoration: none;
+	}
+>>>>>>> CV-App-Assignment-V/master
 }
 

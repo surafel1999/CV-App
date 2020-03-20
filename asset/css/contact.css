@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+input[type=text], input[type=email], input[type=password], input[type=range], select, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightcoral;
+}
+
+textarea {
+    height: 100px;
+}
+
+label {
+    display: inline-block;
+}
+
+.address{
+    text-align:center;
+    height:300px;
+    width:80%;
+    margin-bottom: 40px;
+}
+
+.gmap_canvas {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin:auto;
+    height:300px;
+    width:80%;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.item1 {
+    margin-top: 5px;
+}
+
+.item2 {
+    margin-top: 5px;
+}
+
+#about-me {
+    white-space: pre-line;
+}
+
+#profile {
+    width: 150px;
+    height: 200px;
+    border-radius: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+/*Media Query*/
+@media screen and (max-width: 768px) {
+    
+    #profile {
+        float: none;
+        display: block;
+        width:  60%;
+        margin: auto;
+    }
+
+    .item1{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .item2{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .address{
+        margin-bottom:80px;
+        text-align:center;
+        height:200px;
+        width:100%;
+    }
+
+    .gmap_canvas {
+        margin:auto;
+        height:200px;
+        width:100%;
+    }
+}

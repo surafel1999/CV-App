@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surafel K. /Contact</title>
+    <link rel="stylesheet" href="asset/css/general.css">
+    <link rel="stylesheet" href="asset/css/contact.css"> 
+    <link rel="icon" href="asset/image/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="gallery.htm">Gallery</a></li>
+                <li><a href="contact.htm" class="active">Contact</a></li>
+                <li><a href="myworks.htm">My Works</a></li>
+                <li><a href="blog.htm">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <img id="profile" src="asset/image/trial.png" alt="profile photo">
+        <h1>Surafel Kassahun</h1>
+        <h3>Major Software Engineering, 2020</h3>
+        <p id="about-me">
+            Ethiopian, Software developer, Computer Science Enthusiast, Philantropist, and Open Source Advocate.  
+        </p>
+        <p>Please, feel free to contact me using the form found below or any social media sites.</p>
+        <form action="mailto:se.surafel.kassahun@gmail.com">
+        <div class="grid-container">
+            <div class="row">
+                <div class="item1"> <label for="fName" >First Name: </label> </div>
+                <div class="item2"> <input type="text" id="fName" placeholder="Your name.." required pattern="[A-Za-z]{2,}"> </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="sName">Last Name: </label>  </div>
+                <div class="item2"> <input type="text" id="sName" placeholder="Your last name.." required pattern="[A-Za-z]{2,}"> </div>
+            </div>
+            <div class="row">
+                <div class="item1"><label>Gender:</label>
+                    <label for="male">Male </label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female </label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="mail">Email: </label> </div>
+                <div class="item2"> <input type="email" placeholder="example@email.com" id="mail" required> </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="password">Password: </label> </div>
+                <div class="item2"> <input type="password" placeholder="password" id="password" required pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}"> </div>
+            </div>
+            <div class="row">
+                <div class="item1"> <label for="country">Country: </label></div>
+                <div class="item2">
+                    <select name="country" id="country">
+                        <option value="" disabled selected>--select your country--</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="USA">USA</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="England">England</option>
+                        <option value="India">India</option>
+                        <option value="Italy">Italy</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item1"><label for="slider">Rate my cv:</label></div>
+                <div class="item2"><input id="slider" type="range" min="0" max=10 step="1"></div>
+            </div>
+            <div class="row">
+                <div class="item1">Any Suggestions?</div>
+                <div class="item2"><textarea name="comment" placeholder="Enter your suggestions here."></textarea></div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+            </div>
+        </div>
+        </form>
+        <div class="address">
+            <h4>Wandering, Where can I find him? No problem, here is my address.</h4>
+            <div class="gmap_canvas">
+                <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20institute%20of%20technology&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+                <a href="https://www.divi-discounts.com"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Contact Me On: 
+            <a href="https://www.facebook.com/profile.php?id=100009073919500">
+                <img src="asset/image/social_media_icons/facebook.png" alt="Facebook"></a>
+            <a href="https://t.me/sura2011">
+                <img src="asset/image/social_media_icons/telegram.png" alt="Telegram"></a>
+            <a href="https://mail.google.com/mail/u/se.surafel.kassahun@gmail.com">
+                <img src="asset/image/social_media_icons/gmail.png" alt="Gmail"></a>
+            <a href="https://www.linkedin.com/in/surafel-kassahun-916117172">
+                <img src="asset/image/social_media_icons/linkedin.png" alt="Linkedin"></a>
+            <a href="https://github.com/Surafel1999">
+                <img src="asset/image/social_media_icons/github.png" alt="Githb"></a>
+        </p>
+        <p>Developed by Surafel Kassahun Copyright&copy;2020</p>
+    </footer>
+
+</body>
+</html>
+
