@@ -2,52 +2,26 @@ footer {
 	margin-top: 50px;
 }
 
-img {
+#navigation img {
 	width: 100px;
 	height: 100px;
     transition: height 1s, width 1s;
 }
 
-img:hover {
-	width: 125px;
-	height: 125px;
-}
-
-#navigation {
+#navigation img:hover {
+	width: 150px;
 	height: 150px;
 }
 
-#navigation > ul > li {
-	display: inline-block;
+#navigation{
+	text-align: center;
+}
+
+#navigation > a {
     width: 15%;
-    padding: 2em 1em;
-    font-size: larger;
+    padding: 20px 20px;
 	text-decoration: none;
 }
 
-#navigation > ul > li> a{
-	text-decoration: none;
-}
-
-#navigation > ul > li > a:link, nav > ul > li > a:visited{
-	text-decoration: none;
-}
-
-#one, #two, #three {
-	position: fixed;
-}
-
-#one {
-	top: 12rem;
-	left: 25rem;
-}
-
-#two {
-	top: 12rem;
-	left: 35rem;
-}
-
-#three {
-	top: 12rem;
-	left: 45rem;
+#navigation > a:link, #navigation > a:visited{
 }

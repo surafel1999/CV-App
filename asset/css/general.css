@@ -17,24 +17,21 @@ footer {
     font-style: italic;
 }
 
-header {
-    position: sticky;
-    top: 0;
-
-}
 
 nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     margin-top: 10px;
     margin-left: 0px;
-    text-align: center;
     background: whitesmoke;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
 }
 
 nav > ul > li {
-    display: inline-block;
     font-size: larger;
     text-align: center;
     padding: 10px 4px 4px 4px;
@@ -44,6 +41,19 @@ nav > ul > li > a{
     padding: 10px 5px;
     text-decoration: none;
     color: black;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav > ul {
+        flex-direction: column;
+    }
 }
 
 nav > ul > li > a:link, nav > ul > li > a:visited{
@@ -63,6 +73,12 @@ footer > p > a{
 footer > p > a > img{
     width: 30px;
     height: 30px;
+    transition: height .5s, width .5s;
+}
+
+footer > p > a > img:hover{
+    width: 50px;
+    height: 50px;
 }
 
 .active{
