@@ -14,14 +14,30 @@ footer {
 }
 
 #navigation{
+	margin-top: 40px;
 	text-align: center;
 }
 
 #navigation > a {
-    width: 15%;
+    width: 20%;
     padding: 20px 20px;
 	text-decoration: none;
 }
 
-#navigation > a:link, #navigation > a:visited{
+/*Media Query*/
+@media screen and (max-width: 768px) {
+	h1{
+		font-size: larger;	
+	}
+	#navigation img {
+		width: 50px;
+		height: 50px;
+	}
+
+	#navigation > a {
+	    width: 5%;
+	    padding: 10px 10px;
+		text-decoration: none;
+	}
 }
+
