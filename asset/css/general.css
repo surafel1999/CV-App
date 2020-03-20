@@ -1,0 +1,130 @@
+html{
+    background-color: #2F4F4F; 
+    color: white;
+}
+
+body{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+footer {
+    border-top: solid tomato 3px;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+nav > ul > li {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 4px 4px 4px;
+}
+
+nav > ul > li > a{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited{
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active{
+    color: white;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
+footer > p > a{
+    text-decoration: none;
+    padding: 4px;
+}
+
+footer > p > a > img{
+    width: 30px;
+    height: 30px;
+    transition: height .5s, width .5s;
+}
+
+footer > p > a > img:hover{
+    width: 50px;
+    height: 50px;
+}
+
+.active{
+    color: white;
+    border-radius: 4px;
+    background-color: tomato;
+}
+
+.content{
+    line-height: 1.1em;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+/* Media Queries*/
+@media screen and (min-width: 800px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+    .container {
+        margin: auto;
+        width: 60%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        margin: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size:  medium; 
+    }
+
+    footer > p > a > img{
+        width: 20px;
+        height: 20px;
+    }
+
+    header > nav > ul {
+        flex-direction: column;
+    }
+
+    .container {
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+    }
+
+    #profile {
+        float: none;
+        display: block;
+        width:  60%;
+        margin-left: 30%;
+        margin-right: 10%;
+    }
+}
