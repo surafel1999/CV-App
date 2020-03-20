@@ -1,0 +1,42 @@
+article{
+	line-height: 1.5;
+	font-size: 	1em;
+}
+
+article > ul > li > a{
+	text-decoration: none;
+	color: white
+}
+
+article > ul > li > a:link, article > ul > li > a:visited{
+	color: white
+}
+
+article > ul > li > a:hover, article > ul > li > a:active{
+	text-decoration: underline;
+}
+
+.content{
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	margin: 15px 0;
+}
+
+.title {
+	text-align: center;
+	font-size: larger;
+	font-style: bold;
+}
+.date {
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-size: .9em;
+	font-style: italic;	
+}
+
+/*Media Query*/
+@media (max-width:  800px) {
+    article{
+        font-size: 1em;
+    }
+}

@@ -6,7 +6,7 @@ html{
 body{
     margin: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 footer {
@@ -17,25 +17,22 @@ footer {
     font-style: italic;
 }
 
-header {
-    position: sticky;
-    top: 0;
-
-}
 
 nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     margin-top: 10px;
     margin-left: 0px;
-    text-align: center;
     background: whitesmoke;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
 }
 
 nav > ul > li {
-    display: inline-block;
-    font-size: larger;
+    font-size: 1.5em;
     text-align: center;
     padding: 10px 4px 4px 4px;
 }
@@ -63,6 +60,12 @@ footer > p > a{
 footer > p > a > img{
     width: 30px;
     height: 30px;
+    transition: height .5s, width .5s;
+}
+
+footer > p > a > img:hover{
+    width: 50px;
+    height: 50px;
 }
 
 .active{
@@ -77,9 +80,51 @@ footer > p > a > img{
     text-align: justify;
 }
 
-.container {
-    margin: auto;
-    width: 60%;
-    padding: 20px;
+
+/* Media Queries*/
+@media screen and (min-width: 800px) {
+    header {
+        position: sticky;
+        top: 0;
+    }
+    .container {
+        margin: auto;
+        width: 60%;
+        padding: 20px;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    body{
+        margin: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size:  medium; 
+    }
+
+    footer > p > a > img{
+        width: 20px;
+        height: 20px;
+    }
+
+    header > nav > ul {
+        flex-direction: column;
+    }
+
+    .container {
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+    }
+
+    #profile {
+        float: none;
+        display: block;
+        width:  60%;
+        margin-left: 30%;
+        margin-right: 10%;
+    }
+}
